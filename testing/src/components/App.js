@@ -4,7 +4,7 @@ import CommentList from "components/CommentList";
 
 const App = () => {
   return (
-    <div>
+    <div className="ui container">
       <CommentBox />
       <CommentList />
     </div>
