@@ -1,1 +1,1 @@
-export const SAVE_COMMENTS = "SAVE_COMMENTS";
+export const SAVE_COMMENT = "SAVE_COMMENT";

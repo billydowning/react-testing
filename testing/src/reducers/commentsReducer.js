@@ -1,9 +1,9 @@
-import { SAVE_COMMENTS } from "actions/types";
+import { SAVE_COMMENT } from "actions/types";
 
 const commentsReducer = (state = [], action) => {
   switch (action.type) {
-    case SAVE_COMMENTS:
-      return action.payload || false;
+    case SAVE_COMMENT:
+      return [...state, action.payload];
     default:
       return state;
   }
