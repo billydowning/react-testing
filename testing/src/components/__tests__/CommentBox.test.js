@@ -18,7 +18,7 @@ afterEach(() => {
   component.unmount();
 });
 
-it("has a text area and a button", () => {
+it("has a text area and two buttons", () => {
   expect(component.find("textarea").length).toEqual(1);
   expect(component.find("button").length).toEqual(2);
 });

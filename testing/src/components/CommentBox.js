@@ -31,7 +31,7 @@ class CommentBox extends React.Component {
         </form>
         <button
           onClick={this.props.fetchComments}
-          className="ui red right floated button"
+          className="ui red right floated button fetch-comments"
         >
           Fetch Comments
         </button>
