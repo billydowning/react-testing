@@ -29,6 +29,12 @@ class CommentBox extends React.Component {
             </button>
           </div>
         </form>
+        <button
+          onClick={this.props.fetchComments}
+          className="ui red right floated button"
+        >
+          Fetch Comments
+        </button>
       </div>
     );
   }
