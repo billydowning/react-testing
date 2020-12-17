@@ -15,6 +15,7 @@ class CommentBox extends Component {
 
     this.props.saveComment(this.state.comment);
     this.setState({ comment: "" });
+    this.props.history.push("/");
   };
 
   render() {
